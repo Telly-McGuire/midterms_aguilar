@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import 'app\globals.css';
 
 export default function Home() {
   const [task, setTask] = useState("");
